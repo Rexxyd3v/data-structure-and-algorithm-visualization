@@ -1,7 +1,4 @@
 # MERGE SORT TREE VISUALIZATION
-# Created: January 13, 2026
-# Finished: January 13, 2026
-
 import pygame
 import sys
 
