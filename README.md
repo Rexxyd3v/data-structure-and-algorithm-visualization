@@ -9,7 +9,7 @@
 ### Installation Steps
 1. **Clone the repository** (or download the source code):
    ```bash
-   git clone https://github.com/Rexxyqt/DATA-STRUCTURE-AND-ALGORITHM-VISUALIZATION.git
+   git clone https://github.com/Rexxyqt/data-structure-and-algorithm-visualization.git
    cd DATA-STRUCTURE-AND-ALGORITHM-VISUALIZATION
    ```
 
