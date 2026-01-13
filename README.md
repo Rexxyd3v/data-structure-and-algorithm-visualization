@@ -1,12 +1,5 @@
 # DSA Visualization Tool
 
-## Educational Purpose
-Understanding Data Structures and Algorithms (DSA) can be challenging, especially when trying to imagine how they manipulate data in real-time. This project is dedicated to **students** and **learners** who find abstract concepts difficult to grasp. 
-
-By providing a clean, step-by-step visual representation, this tool aims to bridge the gap between theoretical pseudo-code and practical execution.
-
----
-
 ## Setup & Installation
 
 ### Prerequisites
@@ -27,28 +20,15 @@ By providing a clean, step-by-step visual representation, this tool aims to brid
 
 ---
 
-## Project Structure
-```text
-DSA VISUALIZATION/
-├── algorithms/
-│   └── src/
-│       └── bubble_sort.py     # Main Bubble Sort logic and UI
-├── data_structures/
-│   └── src/                   # (Planned) Data structure visualizations
-└── README.md                  # Project documentation
-```
-
----
-
 ## Currently Supported
-- **Bubble Sort**: A simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+- **Bubble Sort**
+- **Insertion Sort**
+- **Merge Sort**
 
 ## Future Roadmap
 
 ### Sorting Algorithms
 - [ ] Selection Sort
-- [ ] Insertion Sort
-- [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
 - [ ] Shell Sort
@@ -75,4 +55,3 @@ DSA VISUALIZATION/
 - [ ] Huffman Coding (Visualizing Tree Building)
 
 ---
-*Created to help students master DSA.*
