@@ -1,7 +1,4 @@
 # INSERTION SORT VISUALIZATION
-# Created: January 08, 2026
-# Finished: January 1, 2026
-
 import pygame
 import sys
 
