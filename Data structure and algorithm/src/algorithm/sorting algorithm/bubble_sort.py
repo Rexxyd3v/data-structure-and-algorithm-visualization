@@ -1,7 +1,4 @@
 # BUBBLE SORT VISUALIZATION
-# Created: December 29 2025
-# Finished: January 06, 2026
-
 import pygame
 import sys
 
