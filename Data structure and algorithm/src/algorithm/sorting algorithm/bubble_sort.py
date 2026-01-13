@@ -1,7 +1,6 @@
 # BUBBLE SORT VISUALIZATION
 # Created: December 29 2025
 # Finished: January 06, 2026
-# Created by: Rexxyqt
 
 import pygame
 import sys
@@ -100,6 +99,11 @@ def draw():
             s = font.render(str(val), True, text_color)
             r = s.get_rect(center=rect.center)
             win.blit(s, r)
+        
+        if msg:
+            m_surf = font.render(msg, True, accent_gold if "swapping" in msg.lower() else sub_color)
+            m_rect = m_surf.get_rect(center=(win_w // 2, y_pos + box_w + 60))
+            win.blit(m_surf, m_rect)
         
 
     if not typing:
@@ -206,10 +210,10 @@ while True:
             
             symbol = ">" if ascending else "<"
             if should_swap:
-                msg = f"{v1} {symbol} {v2}: Swap!"
+                msg = f"{v1} {symbol} {v2}: Out of order, swapping!"
                 state = "swap"
             else:
-                msg = f"{v1} {'<=' if ascending else '>='} {v2}: No Swap"
+                msg = f"{v1} {'<=' if ascending else '>='} {v2}: In order, skipping."
                 j += 1
                 if j >= len(nums) - i - 1:
                     j = 0
