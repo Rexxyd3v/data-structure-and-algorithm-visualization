@@ -28,9 +28,9 @@
 ## Future Roadmap
 
 ### Sorting Algorithms
-- [ ] Selection Sort
-- [ ] Quick Sort
-- [ ] Heap Sort
+- [/] Selection Sort
+- [/] Quick Sort
+- [/] Heap Sort
 - [ ] Shell Sort
 
 ### Searching Algorithms
