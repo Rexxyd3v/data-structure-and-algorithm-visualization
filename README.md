@@ -20,18 +20,16 @@
 
 ---
 
-## Currently Supported
-- **Bubble Sort**
-- **Insertion Sort**
-- **Merge Sort**
-
 ## Future Roadmap
 
 ### Sorting Algorithms
+- [/] Bubble Sort
+- [/] Insertion Sort
+- [/] Merge Sort
 - [/] Selection Sort
 - [/] Quick Sort
 - [/] Heap Sort
-- [ ] Shell Sort
+- [/] Shell Sort
 
 ### Searching Algorithms
 - [ ] Linear Search
